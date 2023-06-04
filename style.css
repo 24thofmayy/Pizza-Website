@@ -1,0 +1,32 @@
+body { 
+    width: 500 px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+header {
+    height: 50 px;
+    background-color: blueviolet;
+}
+.menu-navbar{
+    
+    height: 25 px;
+    background-color: rgb(255, 196, 0);
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    float: right;
+    width: 180 px;
+    height: 100 px;
+    background-color: palevioletred;
+}
+aside{
+    float: left;
+    width: 120 px;
+    height: 100 px;
+    background-color: salmon;
+}
+footer {
+    clear: both;
+    height: 50 px;
+    background-color: darkorange;
+}
