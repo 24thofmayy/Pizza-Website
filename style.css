@@ -1,18 +1,79 @@
 body { 
     width: 500 px;
-    margin: 0 auto;
-    background-color: rgb(255, 255, 255);
+    margin: 0 ;
+    background-color: rgb(153, 42, 42);
 }
-header {
-    height: 50 px;
-    background-color: blueviolet;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
-.menu-navbar{
-    
-    height: 25 px;
-    background-color: rgb(255, 196, 0);
+.welcome-navbar {
+    align-items: center; 
+    width: 100%;
+    height: 80px;
+    background-color:#ffffff;
+}
+.welcome-navbar img {
+    width: 100px;
+    float: left;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    background-color:#ffffff;
+    top: 0;
+    position: sticky;
+}
+.left-navbar{
+    float: left;
+}
+.left-navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.left-navbar li {
+    float: right;
+    background-color:#ffffff;
+}
+.left-navbar a {
+    font-family: 'Righteous', cursive;
+    display: block;
+    color:#dc1c24;
+    padding: 10px 18px;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.right-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+.right-navbar li {
+    float: right;
+    background-color:#ffffff;
+}
+.right-navbar a {
     font-family: 'Poppins', sans-serif;
+    display: block;
+    color: #000;
+    padding: 15px 18px;
+    height: 60px;
+    text-decoration: none;
 }
+.right-navbar li a:hover {
+    background-color:#009044;
+  }
+
 section {
     float: right;
     width: 180 px;
