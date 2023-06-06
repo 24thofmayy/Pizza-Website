@@ -49,5 +49,10 @@
 
 .right-navbar li a:hover {
     background-color: var(--green);
-    color: aliceblue;
+    color: var(--white);
   }
+
+.current-nav li a{
+    background-color: var(--green);
+    color: var(--white);
+}
